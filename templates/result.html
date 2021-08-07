@@ -1,0 +1,62 @@
+<html><head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASCII ART GENERATOR</title>
+
+    <style>
+    @-ms-viewport{
+      width: device-width;
+    }
+
+    body{
+      font-family: 'Anton', sans-serif;
+      src: url(https://fonts.gstatic.com/s/anton/v11/1Ptgg87LROyAm3K8-C8QSw.woff2);
+      color: #442220;
+      font-size: 16px;
+      background-color: #fdfcf1;
+    }
+
+    h1{
+      font-size: 7vw;
+    }
+
+    hr{
+      border: 10px solid #442220;
+      border-radius: 5px;
+    }
+
+    .button {
+      background-color: #A0B56C;
+      border: none;
+      color: white;
+      padding: 15px 15px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+
+    #results {
+      border-radius: 25px;
+      border-color: rgb(0,0,0,0);
+      background: #FFF;
+      padding: 25px;
+      display: inline-block;
+      overflow: auto;
+      height: auto;
+      position: relative;
+    }
+
+    </style>
+</head>
+
+    <body>
+        <form action="http://gnnchya.pythonanywhere.com/">
+         <button type="submit" class="button">&#8592 Return to the Main Page</button></form>
+         <br>
+        <div id=results>
+            <pre style="font-size: 2px;">{{x}}</pre>
+        </div>
+    </body>
+</html>

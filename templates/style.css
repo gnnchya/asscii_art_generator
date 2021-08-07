@@ -1,0 +1,75 @@
+@-ms-viewport{
+  width: device-width;
+}
+
+body{
+  font-family: 'Anton', sans-serif;
+  src: url(https://fonts.gstatic.com/s/anton/v11/1Ptgg87LROyAm3K8-C8QSw.woff2);
+  color: #442220;
+  font-size: 16px;
+  background-color: #fdfcf1;
+}
+
+h1{
+  font-size: 7vw;
+}
+
+hr{
+  border: 10px solid #442220;
+  border-radius: 5px;
+}
+
+.button {
+  background-color: #A0B56C;
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+#intro {
+  border-radius: 25px;
+  border-color: rgb(0,0,0,0);
+  background: #E4C3AD;
+  padding: 25px;
+  width: 27.5%;
+  height: auto;
+  position: relative;
+  float: left;
+}
+
+#input {
+  border-radius: 25px;
+  border-color: rgb(0,0,0,0);
+  background: #E4C3AD;
+  padding: 25px;
+  width: 27.5%;
+  position: relative;
+  float: left;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+#imageex {
+  border-radius: 25px;
+  background: #E4C3AD;
+  padding: 25px;
+  float: right;
+  width: 62.5%;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+#head {
+  font-family: 'Anton', sans-serif;
+  color: #442220;
+  text-align: center;
+}
